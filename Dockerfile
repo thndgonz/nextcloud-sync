@@ -7,4 +7,4 @@ RUN chmod +x /scripts/entrypoint.sh
 RUN echo "* */12 * * * /bin/bash /scripts/sync.sh" >> /var/spool/cron/crontabs/root
 ENV SOURCE_FOLDER=/var/www/html
 ENV DESTINATION_FOLDER=/backup/Nextcloud
-ENTRYPOINT [ "/scripts/entrysync.sh" ]
+ENTRYPOINT [ "/scripts/entrypoint.sh" ]

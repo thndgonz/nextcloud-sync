@@ -1,6 +1,6 @@
 # nextcloud-sync
 
-This is my personal way of backing up nextcloud instance through rsync into a Samba share (CIFS). It backups through cron every 12 hours. Can be manually initially.
+This is my personal way of backing up nextcloud instance through rsync into a Samba share (CIFS). It backups through cron every 12 hours. It can be manually initialized.
 
 # Environment variables
 
