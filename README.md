@@ -6,6 +6,7 @@ This is my personal way of backing up nextcloud instance through rsync into a Sa
 
 `SOURCE_FOLDER` = Source of the folder you want to backup. Usually for nextcloud this is `/var/www/html`
 `DESTINATION_FOLDER` = Destination folder you want to target. Default is `/backup` inside the **container**.
+`CRON_JOB_SCHEDULE` = The default is every 12 hours, `* */12 * * *`, you may change this however you want.
 
 Do note that you have to bind to the correct mount and correct destination folder.
 
